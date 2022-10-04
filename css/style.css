@@ -1,0 +1,126 @@
+@font-face {
+  font-family: Fredonka;
+  src: url(../fonts/FredokaOne-Regular.ttf);
+}
+
+
+body {
+
+  background-image: linear-gradient(#Edc7b7,#eee2dc);
+  min-height: 100vh;
+}
+
+
+
+
+
+header {
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+flex-wrap: wrap;
+
+}
+
+
+
+nav ul {
+
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: ;
+  align-items: center;
+  padding-right: 200px;
+  padding-top: 20px;
+
+}
+
+
+li {
+
+  padding: 20px;
+  margin: 20px;
+
+  border: 2px #Ac3b61 solid;
+  border-radius: 20px;
+
+  font-family: fredonka;
+  color: #Ac3b61;
+  background-color: #e6bead;
+
+}
+
+
+li:hover {
+
+  color: #123C69 ;
+  background-color: #BAB2B5;
+
+
+
+
+}
+
+
+main {
+
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  min-height: 75vh;
+  border-top: #Ac3b61 solid 2px;
+  font-family: fredonka;
+  color: #Ac3b61;
+}
+
+
+
+
+
+svg {
+
+width: 200px;
+height: 200px;
+
+}
+
+img {
+
+
+width: 200px;
+height: 200px;
+
+
+}
+
+
+div {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+}
+
+
+p {
+
+padding-left: 20px;
+
+}
+
+
+footer {
+
+  border-top: #Ac3b61 2px solid;
+  display: flex;
+  font-family: fredonka;
+  color: #Ac3b61;
+  padding: 20px;
+
+
+}
+
